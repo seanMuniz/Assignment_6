@@ -1,0 +1,147 @@
+ 
+ /* ********* 
+
+  BTI225 – Assignment 05
+
+  I declare that this assignment is my own work in accordance with
+  Seneca Academic Policy. No part of this assignment has been
+  copied manually or electronically from any other source
+  (including web sites) or distributed to other students.
+
+  Please update the following with your information:
+
+  Name:       Sean Muniz 
+  Student ID: 102411188
+  Date:       11 August 2023
+ 
+********* */
+ 
+ h1{
+    color: white; 
+    text-align: center;
+    font-size: 70px;
+}
+p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+} 
+
+body{
+    /* background-color: #eea990; */
+    background-size: 1500px;
+    font-family: Alegreya Sans SC, Arial, Helvetica;
+    
+}
+
+nav{
+    border: 2px solid rgb(170, 117, 167);
+    box-shadow: 10px 5px 5px rgb(170, 117, 167);
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.artists{
+    margin:auto;
+    color: white;
+    font-size: 30px;
+    padding: 12px; ;
+}
+
+.artists:hover{
+    background-color: rgb(170, 117, 167);
+    cursor:pointer;
+}
+
+.display-artist{
+    color: white;
+    font-size: 40px;
+}
+
+.links{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.links:hover{
+    color:rgb(170, 117, 167); 
+}
+
+#card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 2px solid rgb(170, 117, 167);
+    border-radius: 50px;
+    padding: 30px;
+    
+    height: 650px; 
+    box-shadow: 10px 5px 5px rgb(170, 117, 167);
+    margin-bottom: 50px;
+    opacity: .8;
+}
+.card:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(240, 9, 9, 0.24);
+}
+.card:hover{
+    cursor: pointer;
+    background-color: rgb(170, 117, 167);
+    /* transition: 0.5s ease;
+    transform: scale(1.04); */
+
+}
+.card p{
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#song-form{
+    /* margin: 30px; 
+    width: 500px; */
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin: auto;
+    width: 50%; 
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+    /* display: none; */
+    color: white;
+    background-color: #a39193;
+    opacity: .8;
+}
+
+.hidden{
+    display: none; 
+}
+
+.form{
+    width: 500px;
+}
+
+#songID{
+    display: none;
+}
+#artistID{
+    display: none;
+}
+
+
+
+
+
+
+
